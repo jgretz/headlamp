@@ -3,10 +3,13 @@
   "author": "jgretz",
   "license": "MIT",
   "scripts": {
-    "search": "ts-node ./src/scratch/search.ts"
+    "start": "ts-node ./src/index.ts"
   },
   "dependencies": {
-    "prettier": "^2.2.1"
+    "@abandonware/noble": "^1.9.2-10",
+    "flux-led": "https://github.com/fergusean/node-flux-led.git",
+    "prettier": "^2.2.1",
+    "robot3": "^0.2.18"
   },
   "devDependencies": {
     "@types/node": "^14.14.10",
